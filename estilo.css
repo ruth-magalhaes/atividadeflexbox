@@ -1,0 +1,121 @@
+.flex-item {
+    width: 100px;
+    height: 100px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+}
+
+.base {
+    margin-bottom: 15px;
+    background-color: #d0d3d4;
+    border-radius: 4px;
+}
+
+.desafio { /* DESAFIO */
+    margin-bottom: 15px;
+    background-color: #d0d3d4;
+    border-radius: 4px;
+}
+
+
+.box1 {
+    background-color: #63b1bc;
+}
+
+.box2 {
+    background-color: #1f2a44;
+}
+
+.box3 {
+    background-color: #ed145b;
+}
+
+.box4 {
+    background-color: #efb661;
+}
+
+h1 {
+    width: fit-content;
+    margin: auto;
+}
+
+/* Insira o código abaixo */
+
+.container1 {
+    display: flex;
+    justify-content: flex-start; /* ítens alinhados com o início do container. O valor (com maior suporte dos navegadores) flex-start se guia pela flex-direction, enquanto start se guia pela direção do writing-mode.*/
+}
+
+.container2 {
+    display: flex;
+    justify-content: flex-end; /*ítens alinhados com o final do container. O valor (com maior suporte dos navegadores) flex-end se guia pela flex-direction, enquanto end se guia pela direção do writing-mode. */
+}
+
+.container3 {
+   display: flex;
+   justify-content: center; /*  ítens centralizados no container.*/ 
+}
+
+.container4 {
+    display: flex;
+    justify-content: space-between; /* os ítens são distribuídos de forma igual ao longo da linha; o primeiro ítem junto à borda inicial da linha, o último junto à borda final da linha.*/ 
+    
+}
+.container5 {
+    display: flex;
+    justify-content: space-around; /*  o primeiro item vai ter somente uma unidade de espaço junto à borda do container, mas duas unidades de espaço entre ele e o próximo ítem, pois o próximo ítem também tem seu próprio espaçamento que está sendo aplicado.*/ 
+    
+}
+.container6 {
+    display: flex;
+    justify-content: space-evenly;  /*  os ítens são distribuídos de forma que o espaçamento entre quaisquer dois itens da linha (incluindo entre os ítens e as bordas) seja igual. */
+}
+
+
+.containerB { /* Exercício B) Estilize a div com classe "container-exercicioB"*/
+    display: flex;
+    flex-direction: column-reverse; /* na vertical 4, 3, 2, 1*/
+}
+
+/* DESAFIO */
+
+.container7 {
+  
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: auto;
+    
+}
+
+.container8 {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 220px;
+    
+}
+
+.container9 {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 440px;
+    
+}
+
+.container10 {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 660px
+}
+
+.container11 {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 880px
+}
+
+.container12 {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 1200px
+}
